@@ -43,7 +43,9 @@ public class Countdown {
 
 				if (useTitle && curentCount <= 5) {
 					for (Player player : Bukkit.getOnlinePlayers()) {
-						Title.newTitle(player, titleColor + String.valueOf(curentCount), 5, 10, 1);
+						// Removing for temp 						
+						//Title.newTitle(player, titleColor + String.valueOf(curentCount), 5, 10, 1);
+						// End
 					}
 				}
 
